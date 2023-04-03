@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ButtonContactShift from "../contact_botton/shiftBtn";
 
 const PricingBox = (props) => {
   const { title, subtitle, urlImage, descriptionImage } = props;
@@ -14,9 +15,7 @@ const PricingBox = (props) => {
         </h2>
         <p className="mb-7 text-base text-center h-14 text-[#FFFFFF]">{subtitle}</p>
         <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
-          <button className="flex w-full items-center justify-center rounded-md bg-primary text-white p-3 text-base font-semibold transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-            Reservar turno ahora
-          </button>
+          <ButtonContactShift />
         </div>
         <div className="w-full overflow-hidden rounded-md relative" style={{ height: '30vh' }}>
           <Image

@@ -8,7 +8,7 @@ import "../styles/index.css";
 export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning lang="es">
-      <body className="dark:bg-white !overflow-y-color:#44444" >
+      <body className="dark:bg-white">
         <Providers>
           <Header />
           {children}

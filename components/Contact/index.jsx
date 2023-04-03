@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import ButtonContactShift from "../contact_botton/shiftBtn";
+
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -32,12 +34,7 @@ const Contact = () => {
                 Deja tu vehículo en manos de expertos
               </h2>
               <div className="flex mt-8 mb-8 flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                <Link
-                  href="https://nextjstemplates.com/templates/startup"
-                  className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                >
-                  PEDIR TURNO AHORA
-                </Link>
+                <ButtonContactShift />
               </div>
               <div
                 className="wow fadeInUp mb-12 pb-10 max-w-[570px] lg:mb-0"
@@ -66,8 +63,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <iframe className="h-64 w-full lg:h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9905.148954467291!2d-61.41425412380019!3d-32.804828864531046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c9dde229aaf3e1%3A0x14ce17d840ab6581!2sRN9%202452%2C%20Ca%C3%B1ada%20de%20Gomez%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1678387752073!5m2!1ses!2sar"></iframe>
+          <div className="w-full px-4 lg:w-5/12 xl:w-4/12 rounded-md">
+            <iframe className="h-64 w-full lg:h-full rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9905.148954467291!2d-61.41425412380019!3d-32.804828864531046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c9dde229aaf3e1%3A0x14ce17d840ab6581!2sRN9%202452%2C%20Ca%C3%B1ada%20de%20Gomez%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1678387752073!5m2!1ses!2sar"></iframe>
           </div>
         </div>
       </div>

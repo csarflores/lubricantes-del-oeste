@@ -50,7 +50,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-back': "url('/images/hero/background-car.jpg')", 
-      }
+      },
     },
   },
   plugins: [],

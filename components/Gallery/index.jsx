@@ -11,7 +11,7 @@ const Gallery = () => {
                             <div className="w-1/2 p-1 md:p-2">
                                 <Image
                                     alt="gallery"
-                                    class="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
+                                    className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
                                     src="/images/works/fiesta.jpg"
                                     width={300}
                                     height={300}
@@ -35,27 +35,27 @@ const Gallery = () => {
                                     height={300} />
                             </div>
                         </div>
-                        <div class="flex w-1/2 flex-wrap">
-                            <div class="w-full p-1 md:p-2">
+                        <div className="flex w-1/2 flex-wrap">
+                            <div className="w-full p-1 md:p-2">
                                 <Image
                                     alt="gallery"
-                                    class="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
+                                    className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
                                     src="/images/works/corolla.jpg"
                                     width={300}
                                     height={300} />
                             </div>
-                            <div class="w-1/2 p-1 md:p-2">
+                            <div className="w-1/2 p-1 md:p-2">
                                 <Image
                                     alt="gallery"
-                                    class="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
+                                    className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
                                     src="/images/works/vw.jpg"
                                     width={300}
                                     height={300} />
                             </div>
-                            <div class="w-1/2 p-1 md:p-2">
+                            <div className="w-1/2 p-1 md:p-2">
                                 <Image
                                     alt="gallery"
-                                    class="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
+                                    className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
                                     src="/images/works/208.jpg"
                                     width={300}
                                     height={300} />

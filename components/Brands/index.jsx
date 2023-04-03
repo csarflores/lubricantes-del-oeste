@@ -1,14 +1,14 @@
 import Image from "next/image";
 import brandsData from "./brandsData";
-import "../../styles/slider.css";
+import "../../styles/slides.css"
 
 const Brands = () => {
   return (
-    <section className="pt-16 opacity-70 hover:opacity-100">
+    <section className="pt-16 lg:opacity-70 lg:hover:opacity-100">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap bg-primary rounded-md">
+        <div className="-mx-4 flex flex-row bg-primary overflow-x-scroll lg:rounded-md lg:overflow-x-scroll">
           <div className="w-full px-4">
-            <div className="flex flex-row">
+            <div className="flex">
               {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
               ))}
@@ -28,8 +28,7 @@ const SingleBrand = ({ brand }) => {
   return (
     <div className="slides">
       <Image
-        className="snap-start p-4"
-        scroll={false}
+        className="p-6 max-w-fit"
         src={image}
         alt={name}
         width={150}

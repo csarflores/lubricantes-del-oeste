@@ -6,14 +6,10 @@
 
 .slides {
   display: flex;
-
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-
+  //scroll-snap-type: x mandatory;
+  //scroll-behavior: smooth;
 }
+/*
 .slides::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -25,8 +21,9 @@
 .slides::-webkit-scrollbar-track {
   background: transparent;
 }
+*/
 .slides > div {
-  scroll-snap-align: start;
+  //scroll-snap-align: start;
   flex-shrink: 0;
   width: 300px;
   height: 300px;
@@ -80,9 +77,10 @@
   background: #000;
 }
 
-/* Don't need button navigation */
+/* Don't need button navigation 
 @supports (scroll-snap-type) {
   .slider > a {
     display: block;
   }
 }
+*/

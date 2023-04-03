@@ -25,8 +25,8 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Porque elegirnos"
-                paragraph="Somos especialistas en service de motos, autos, camionetas y camiones de cualquier marca; nos encargamos de dejar tu vehículo en óptimas condiciones trabajando con herramientas modernas y productos de calidad. Ofrecemos un servicio seguro a precios competitivos y una atención personalizada para asesorarte en cada detalle que vos y tu vehículo necesitan."
-                paragraph2="Además, comercializamos repuestos de las principales marcas para el parque automotor (baterías, filtros, aceite, lámparas, elementos de limpieza y mucho más)."
+                paragraph="Hace 23 años comenzamos esta aventura. Hoy somos especialistas en service de motos, autos, camionetas y camiones de cualquier marca; nos encargamos de dejar tu vehículo en óptimas condiciones trabajando con herramientas modernas y productos de calidad. Ofrecemos un servicio seguro a precios competitivos y una atención personalizada para asesorarte en cada detalle que vos y tu vehículo necesitan."
+                paragraph2="Además, comercializamos repuestos de las principales marcas para el parque automotor (baterías, filtros, aceite, lámparas, elementos de limpieza y mucho más). 23 años de trayectoria respaldan nuestra experiencia, calidad y confianza con nuestros clientes."
                 mb="44px"
               />
 
