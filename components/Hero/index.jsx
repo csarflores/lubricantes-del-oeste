@@ -15,7 +15,7 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="text-7xl font-extrabold text-amber-300 drop-shadow-lg">
+                <h1 className="text-7xl text-shadow-lg font-extrabold text-amber-300 drop-shadow-2xl">
                 23 años siendo el service oficial de tu vehículo
                 </h1>
                 {/*<p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">

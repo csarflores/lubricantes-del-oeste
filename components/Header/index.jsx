@@ -53,7 +53,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-emi2.jpg"
+                  src="/images/logo/logotipo-horizontal.png"
                   alt="logo"
                   width={140}
                   height={30}

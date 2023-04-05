@@ -33,6 +33,8 @@ const SingleBrand = ({ brand }) => {
         alt={name}
         width={150}
         height={150}
+        loading="lazy"
+        decoding="async"
       />
     </div>
   );

@@ -36,6 +36,38 @@ const Contact = () => {
               <div className="flex mt-8 mb-8 flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                 <ButtonContactShift />
               </div>
+
+              <div className="pb-8">
+                <List text="Horarios de atención" />
+                <div className="relative grid place-content-center">
+                  <table className="text-center border-separate border-spacing-2 border border-slate-500">
+                    <thead>
+                      <tr>
+                        <th className="border border-slate-600 p-4">Dias</th>
+                        <th className="border border-slate-600 p-4">Horarios Mañana</th>
+                        <th className="border border-slate-600 p-4">Horarios Tarde</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border border-slate-700 p-4">Lunes a Viernes</td>
+                        <td className="border border-slate-700 p-4">8 a 12hs</td>
+                        <td className="border border-slate-700 p-4">15 a 19hs</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-slate-700 p-4">Sábados</td>
+                        <td className="border border-slate-700 p-4">8 a 12hs</td>
+                        <td className=""></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+
+
+
+
               <div
                 className="wow fadeInUp mb-12 pb-10 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
@@ -49,17 +81,21 @@ const Contact = () => {
                       <List text="emisantini@hotmail.com" />
                     </Link>
                     <Link aria-label="Chat en WhatsApp" href="https://wa.me/5493471626032" target={"_blank"}>
-                        <List text="3471-626032" />
+                      <List text="3471-626032" />
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="relative opacity-70 grid place-content-center grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100">
-                <Image 
-                  className="!relative !h-60 lg:!h-full" 
-                  src="/images/medios-de-pago.png" 
-                  alt="Medios de pago" 
-                  fill />
+              <div className="relative grid place-content-center lg:grayscale transition lg:opacity-70 lg:hover:opacity-100 lg:hover:grayscale-0 dark:lg:opacity-60 dark:lg:hover:opacity-100">
+                <Image
+                  className="!relative !h-60 lg:!h-full"
+                  src="/images/medios-de-pago.png"
+                  alt="Medios de pago"
+                  width="400"
+                  height="300"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
             </div>
           </div>

@@ -15,6 +15,8 @@ const Gallery = () => {
                                     src="/images/works/fiesta.jpg"
                                     width={300}
                                     height={300}
+                                    loading="lazy"
+                                    decoding="async"
                                 />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
@@ -23,7 +25,10 @@ const Gallery = () => {
                                     className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
                                     src="/images/works/clio.jpg"
                                     width={300}
-                                    height={300} />
+                                    height={300}
+                                    loading="lazy"
+                                    decoding="async"
+                                />
 
                             </div>
                             <div className="w-full p-1 md:p-2">
@@ -32,7 +37,10 @@ const Gallery = () => {
                                     className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500"
                                     src="/images/works/camion.jpg"
                                     width={300}
-                                    height={300} />
+                                    height={300}
+                                    loading="lazy"
+                                    decoding="async"
+                                />
                             </div>
                         </div>
                         <div className="flex w-1/2 flex-wrap">
@@ -42,7 +50,10 @@ const Gallery = () => {
                                     className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
                                     src="/images/works/corolla.jpg"
                                     width={300}
-                                    height={300} />
+                                    height={300}
+                                    loading="lazy"
+                                    decoding="async"
+                                />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <Image
@@ -50,7 +61,10 @@ const Gallery = () => {
                                     className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
                                     src="/images/works/vw.jpg"
                                     width={300}
-                                    height={300} />
+                                    height={300}
+                                    loading="lazy"
+                                    decoding="async"
+                                />
                             </div>
                             <div className="w-1/2 p-1 md:p-2">
                                 <Image
@@ -58,7 +72,10 @@ const Gallery = () => {
                                     className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition duration-500 hover:rounded-lg"
                                     src="/images/works/208.jpg"
                                     width={300}
-                                    height={300} />
+                                    height={300}
+                                    loading="lazy"
+                                    decoding="async"
+                                />
                             </div>
                         </div>
                     </div>

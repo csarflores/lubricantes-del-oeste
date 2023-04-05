@@ -20,7 +20,10 @@ const PricingBox = (props) => {
         <div className="w-full overflow-hidden rounded-md relative" style={{ height: '30vh' }}>
           <Image
             className="hover:scale-110 transition duration-500 cursor-pointer object-cover"
-            fill
+            width="400"
+            height="350"
+            loading="lazy"
+            decoding="async"
             style={{ objectFit: "cover"}}
             src={urlImage}
             alt={descriptionImage}
