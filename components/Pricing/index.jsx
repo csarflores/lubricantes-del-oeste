@@ -2,13 +2,16 @@
 import SectionTitle from "../Common/SectionTitle";
 import pricingData from './pricingData';
 import PricingBox from "./PricingBox";
+import {format} from 'date-fns'
+import es from "date-fns/locale/es/index";
 
 const Pricing = () => {
+
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Promociones de marzo 2023"
+          title={format(new Date(), "'Promociones de' MMMM", {locale: es})}
           /*paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."*/
           center
           width="665px"

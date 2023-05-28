@@ -28,11 +28,11 @@ const SingleBrand = ({ brand }) => {
   return (
     <div className="slides">
       <Image
-        className="p-6 max-w-fit"
+        className="p-6 max-w-fit aspect-[3/2] object-contain"
         src={image}
         alt={name}
-        width={150}
-        height={150}
+        width={200}
+        height={200}
         loading="lazy"
         decoding="async"
       />

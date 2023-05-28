@@ -73,12 +73,12 @@ const Contact = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <div className="w-full px-3 lg:w-full">
                     <Link href="https://www.google.com/maps/place/RN9+2452,+Ca%C3%B1ada+de+Gomez,+Santa+Fe/@-32.805396,-61.422847,15z/data=!4m5!3m4!1s0x95c9dde229aaf3e1:0x14ce17d840ab6581!8m2!3d-32.8053959!4d-61.422847?hl=es" target={"_blank"}>
-                      <List text="Ruta 9 2452" />
+                      <List text="Ruta 9 2452, Cañada de Gomez, Santa Fe" />
                     </Link>
-                    <Link href="mailto:emisantini@hotmail.com">
-                      <List text="emisantini@hotmail.com" />
+                    <Link href="mailto:lubricantesdeloeste2452@gmail.com">
+                      <List text="lubricantesdeloeste2452@gmail.com" />
                     </Link>
                     <Link aria-label="Chat en WhatsApp" href="https://wa.me/5493471626032" target={"_blank"}>
                       <List text="3471-626032" />

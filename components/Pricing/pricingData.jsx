@@ -29,7 +29,7 @@ const pricingData = [
     },
     {
         id: 5,
-        title: "Kit de filtros VW Amarok hasta el 2016",
+        title: "Kit de filtros Amarok hasta 2016",
         description: "Kit de filtros VW Amarok 2.0 Td 2009/16. Wega",
         urlImage: "/images/kits/amarok-wega-2009-2016.png",
         descriptionImage: "Kit De Filtros Amarok 2.0 Td 2009/16. Wega",
