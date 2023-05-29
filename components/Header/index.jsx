@@ -111,7 +111,7 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/reservas"
-                  className="ease-in-up rounded-md bg-primary text-xs p-3 lg:py-3 md:text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
+                  className="ease-in-up rounded-md bg-primary text-xs p-3 lg:py-3 md:text-base font-bold text-white transition duration-500 ease-in-out hover:bg-[#3bc555] hover:border-solid hover:border-4 hover:text-black transform hover:-translate-y-1 hover:scale-110 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Reservar turno
                 </Link>
