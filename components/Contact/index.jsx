@@ -70,18 +70,18 @@ const Contact = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 lg:w-full">
-                    <Link href="https://www.google.com/maps/place/RN9+2452,+Ca%C3%B1ada+de+Gomez,+Santa+Fe/@-32.805396,-61.422847,15z/data=!4m5!3m4!1s0x95c9dde229aaf3e1:0x14ce17d840ab6581!8m2!3d-32.8053959!4d-61.422847?hl=es" target={"_blank"}>
+                    <Link href="https://www.google.com/maps/place/RN9+2452,+Ca%C3%B1ada+de+Gomez,+Santa+Fe/@-32.805396,-61.422847,15z/data=!4m5!3m4!1s0x95c9dde229aaf3e1:0x14ce17d840ab6581!8m2!3d-32.8053959!4d-61.422847?hl=es" target={"_blank"} passHref>
                       <List aria-label="Domicilio: Ruta 9 2452, Cañada de Gomez, Santa Fe, Argentina" text="Ruta 9 2452, Cañada de Gomez, Santa Fe" />
                     </Link>
-                    <Link aria-label="Email" href="mailto:lubricantesdeloeste2452@gmail.com">
+                    <Link aria-label="Email" href="mailto:lubricantesdeloeste2452@gmail.com" passHref>
                       <List text="lubricantesdeloeste2452@gmail.com" />
                     </Link>
-                    <Link aria-label="Chat en WhatsApp" href="https://wa.me/5493471626032" target={"_blank"}>
+                    <Link aria-label="Chat en WhatsApp" href="https://wa.me/5493471626032" target={"_blank"} passHref>
                       <List text="3471-626032" />
                     </Link>
                   </div>
                   <div className="w-full px-3 lg:w-full flex">
-                    <Link aria-label="Visita nuestro Instagram" href={"https://instagram.com/lubricantesdeloeste_cdg"} target="_blank">
+                    <Link aria-label="Visita nuestro Instagram" href={"https://instagram.com/lubricantesdeloeste_cdg"} target="_blank" passHref>
                       <p className="mb-5 flex items-center text-lg font-medium text-black">
                         <span className="mr-4 flex w-7 h-7 items-center justify-center rounded-md dark:bg-primary text-black">
                           <svg width="23" height="23" className="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

@@ -28,7 +28,7 @@ export default function ScrollToTop() {
           aria-label="scroll to top"
           className="flex h-20 w-20 cursor-pointer items-center justify-center transition duration-300 ease-in-out"
         >
-          <Link href={"https://wa.me/5493471626032"} target="_blank">
+          <Link href="https://wa.me/5493471626032" passHref target="_blank">
             <Image 
               src="/images/whatsapp_logo.svg"
               alt="Whatsapp Lubricentro del Oeste" 
