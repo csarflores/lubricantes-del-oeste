@@ -10,9 +10,13 @@ export default function RootLayout({ children }) {
     <html suppressHydrationWarning lang="es">
       <body className="dark:bg-white">
         <Providers>
-          <Header />
+          {
+            location.pathname !== '/confirmacion-reserva' ? <Header /> : null
+          }
           {children}
-          <Footer />
+          {
+            location.pathname !== '/confirmacion-reserva' ? <Footer /> : null
+          }          
           <ScrollToTop />
         </Providers>
       </body>
