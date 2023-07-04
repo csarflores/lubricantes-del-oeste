@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="bg-primary py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Desarrollado por <a href="#" rel="nofollow noopener">Cloudhub</a>
+              Desarrollado por <a href="https://wa.me/5493492272189" rel="nofollow noopener">César Flores</a>
             </p>
           </div>
         </div>
