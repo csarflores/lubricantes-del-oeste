@@ -1,8 +1,10 @@
 "use client";
 
+import { usePathname } from 'next/navigation';
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
+import { Providers } from "./providers";
 import "../styles/index.css";
 
 export default function RootLayout({ children }) {
@@ -11,11 +13,11 @@ export default function RootLayout({ children }) {
       <body className="dark:bg-white">
         <Providers>
           {
-            location.pathname !== '/confirmacion-reserva' ? <Header /> : null
+            usePathname() !== '/confirmacion-reserva' ? <Header /> : null
           }
           {children}
           {
-            location.pathname !== '/confirmacion-reserva' ? <Footer /> : null
+            usePathname() !== '/confirmacion-reserva' ? <Footer /> : null
           }          
           <ScrollToTop />
         </Providers>
@@ -23,5 +25,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-import { Providers } from "./providers";
